@@ -63,7 +63,11 @@ export const loginUserService = ({ user }) => {
 };
 
 export const logoutUserService = ({ user }) => {
-    return persistor.purge()
+    return persistor.purge().then(() => {
+      return {
+        isAuthenticated: false
+      }
+    })
 };
 
 export const currentUserService = () => {

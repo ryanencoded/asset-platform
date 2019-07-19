@@ -48,6 +48,7 @@ class Login extends React.Component {
     }
 
     this.props.dispatch(loginUser(user));
+    this.props.history.push("/app/assets")
   }
 
   onKeyDown = (event: React.KeyboardEvent < HTMLDivElement > ): void => {
@@ -78,7 +79,6 @@ class Login extends React.Component {
 
     return (
       <div>
-            {isAuthenticated && (<Redirect to="/app/assets" />)}
             <form className={classes.form}>
                   <ValidateInput
                     label="Username"
