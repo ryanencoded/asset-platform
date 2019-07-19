@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.1.1",
     "@material-ui/icons": "^4.2.0",
+    "aws-amplify": "^1.1.32",
     "classnames": "^2.2.6",
     "fusioncharts": "^3.13.4",
     "global": "^4.3.2",
