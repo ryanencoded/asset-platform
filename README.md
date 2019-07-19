@@ -17,18 +17,18 @@ This project is built out of React in the front end. We utilize AWS serverless s
 Under the src folder, the project is structured to where developers can easily navigate between user interface components (under views), data related components (under data), global helpers (utils), and css styles (styles).
 
 ### Additional Documentation ###
-Data: [docs/Data.md](docs/Data.md)
-Imports: [docs/Imports.md](docs/Imports.md)
-Utils: [docs/Utils.md](docs/Utils.md)
-Views: [docs/Views.md](docs/Views.md)
+- Data: [docs/Data.md](docs/Data.md)
+- Imports: [docs/Imports.md](docs/Imports.md)
+- Utils: [docs/Utils.md](docs/Utils.md)
+- Views: [docs/Views.md](docs/Views.md)
 #### API ####
-Alerts: [docs/api/alerts.md](docs/api/alerts.md)
-Assets: [docs/api/assets.md](docs/api/assets.md)
-Customers: [docs/api/cusotmers.md](docs/api/customers.md)
-IAM: [docs/api/iam.md](docs/api/iam.md)
-Metrics: [docs/api/metrics.md](docs/api/metrics.md)
-Regions: [docs/api/regions.md](docs/api/regions.md)
-Sites: [docs/api/sites.md](docs/api/sites.md)
+- Alerts: [docs/api/alerts.md](docs/api/alerts.md)
+- Assets: [docs/api/assets.md](docs/api/assets.md)
+- Customers: [docs/api/cusotmers.md](docs/api/customers.md)
+- IAM: [docs/api/iam.md](docs/api/iam.md)
+- Metrics: [docs/api/metrics.md](docs/api/metrics.md)
+- Regions: [docs/api/regions.md](docs/api/regions.md)
+- Sites: [docs/api/sites.md](docs/api/sites.md)
 
 ### Available Scripts
 
