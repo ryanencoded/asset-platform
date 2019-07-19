@@ -1,8 +1,13 @@
 ## Getting Started ##
 This project serves to cater to customers in managing their assets out in the field. By using this software, they are able to easily keep track of incoming alerts and status of their assets. They also analyze and view metic data for each asset they have on site.
 
-### App Capabilities ###
-This app can:
+This is a stripped down version of the original platform, without the company data and is not powered by the backend. It is meant to give an idea of the structure, implementation, and overall architecture of the front-end.
+
+##Login Credentials##
+The front-end does not really require certain credentials, but does validate what you type. The easiest way to gain access is to use the following credentials.
+
+Username: testuser
+Password: Test@1234
 
 ### System Overview ###
 1. System Architecture
@@ -11,6 +16,19 @@ This project is built out of React in the front end. We utilize AWS serverless s
 + Project Directory
 Under the src folder, the project is structured to where developers can easily navigate between user interface components (under views), data related components (under data), global helpers (utils), and css styles (styles).
 
+### Additional Documentation ###
+Data: [docs/Data.md](docs/Data.md)
+Imports: [docs/Imports.md](docs/Imports.md)
+Utils: [docs/Utils.md](docs/Utils.md)
+Views: [docs/Views.md](docs/Views.md)
+#### API ####
+Alerts: [docs/api/alerts.md](docs/api/alerts.md)
+Assets: [docs/api/assets.md](docs/api/assets.md)
+Customers: [docs/api/cusotmers.md](docs/api/customers.md)
+IAM: [docs/api/iam.md](docs/api/iam.md)
+Metrics: [docs/api/metrics.md](docs/api/metrics.md)
+Regions: [docs/api/regions.md](docs/api/regions.md)
+Sites: [docs/api/sites.md](docs/api/sites.md)
 
 ### Available Scripts
 
