@@ -16,7 +16,10 @@ This project is built out of React in the front end. We utilize AWS serverless s
 + Project Directory
 Under the src folder, the project is structured to where developers can easily navigate between user interface components (under views), data related components (under data), global helpers (utils), and css styles (styles).
 
-### Additional Documentation ###
+### Documentation ###
+The following documentation gives you an overview of the application code and data services.
+
+#### UI Components ####
 - Data: [docs/Data.md](docs/Data.md)
 - Imports: [docs/Imports.md](docs/Imports.md)
 - Utils: [docs/Utils.md](docs/Utils.md)
