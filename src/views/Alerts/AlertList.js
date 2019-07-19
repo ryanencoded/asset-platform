@@ -100,7 +100,7 @@ class AlertList extends Component {
 
 const mapStateToProps = state => {
   return {
-    alerts: filtSortSelector(state, 'alert'),
+    alerts: state.alert.data,
     sort: state.alert.sort,
     filter: state.alert.filter
   }

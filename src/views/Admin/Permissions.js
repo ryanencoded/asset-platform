@@ -23,6 +23,7 @@ import {
     return (
       <Paper elevation={2} >
         <Typography paragraph variant='body1'>Manage Permissions for {user.name}</Typography>
+        <Typography paragraph variant='body2'><strong>This feature is limited due to disconnection from backend service</strong></Typography>
         <Grid item container justify='space-around'>
           <Grid item sm={6} md={3}><Services /></Grid>
           <Grid item sm={6}  md={3}><Actions /></Grid>

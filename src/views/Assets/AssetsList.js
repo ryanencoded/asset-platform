@@ -117,7 +117,7 @@ class AssetsList extends Component {
 
 const mapStateToProps = state => {
   return {
-    assets: filtSortSelector(state, 'asset'),
+    assets: state.asset.data,
     asset: state.asset.current,
     sort: state.asset.sort,
     filter: state.asset.filter

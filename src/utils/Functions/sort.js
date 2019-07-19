@@ -1,4 +1,4 @@
-export function sortData(data, category) {
+export function sortData(data, category = 'state') {
   return data.sort((a, b) => {
     const first = getProperty(a, category);
     const second = getProperty(b, category);
@@ -12,7 +12,7 @@ export function sortData(data, category) {
   })
 }
 
-export function filterData(data, category) {
+export function filterData(data, category = 'state') {
   //find selected for that category
   const options = category.options.filter(option => option.selected).map(x => {
     switch (category.artifact) {
@@ -30,7 +30,7 @@ export function filterData(data, category) {
 }
 
 
-const getProperty = (object, category) => {
+const getProperty = (object, category = 'alphabetical') => {
   var result = null;
   switch(category.artifact) {
     case 'alphabetical':

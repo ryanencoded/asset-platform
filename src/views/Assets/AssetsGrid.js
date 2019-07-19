@@ -67,7 +67,7 @@ class AssetsGrid extends Component {
 
 const mapStateToProps = state => {
   return {
-    assets: filtSortSelector(state, 'asset'),
+    assets: state.asset.data,
     sort: state.asset.sort,
     filter: state.asset.filter
   }

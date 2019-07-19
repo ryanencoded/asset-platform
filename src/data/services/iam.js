@@ -25,7 +25,7 @@ export const fetchActionsService = (service) => {
 export const fetchUsersService = () => {
   return [
     {
-      username: "andiep",
+      username: "hpedi",
       status: true,
       userId: "3a12f810-194b-4aff-bdeb-de4e9925c344",
       name: "Halsey Pedi",
