@@ -6,8 +6,8 @@ This is a stripped down version of the original platform, without the company da
 ## Login Credentials ##
 The front-end does not really require certain credentials, but does validate what you type. The easiest way to gain access is to use the following credentials.
 
-Username: testuser
-Password: Test@1234
+- Username: testuser
+- Password: Test@1234
 
 ### System Overview ###
 1. System Architecture
