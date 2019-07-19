@@ -17,7 +17,8 @@ const AuthHeader = (props) => {
 
 const styles = theme => ({
   image: {
-    margin: '10% auto'
+    margin: '10% auto',
+    maxWidth: '150px'
   },
   imageContainer: {
     textAlign: 'center'

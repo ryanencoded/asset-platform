@@ -11,7 +11,7 @@ const Marketing = (props) => {
       <Grid container className={classes.container}>
         <Hidden mdDown>
           <Grid item xs={12} >
-            <img src={Logo} alt="Logo"/>
+            <img className={classes.logo} src={Logo} alt="Logo"/>
           </Grid>
           <Grid item xs={12}>
             <p className={classes.text}>
@@ -38,6 +38,9 @@ const styles = theme => ({
     fontSize: '40px',
     color:'white',
     alignSelf:'center'
+  },
+  logo: {
+    maxWidth: '150px'
   }
 });
 
