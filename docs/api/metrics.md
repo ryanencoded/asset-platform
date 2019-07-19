@@ -98,7 +98,7 @@ includes your Access Key, Secret Access Key, and a Session Token.
 : This will return metric details of a particular measurement
 > Path params:
 > `metric: <string> *Required*`
-> Example: `hp47105%3latest%3engine_load%31557499779055`. This returns measurements and information on a specific metric.
+> Example: `asset4321%3latest%3engine_load%31557499779055`. This returns measurements and information on a specific metric.
 
 ### Response Body
 * Code 200: Success
@@ -151,7 +151,7 @@ includes your Access Key, Secret Access Key, and a Session Token.
 : Update an existing metric with a put request. Users are able to change the range of the graph, the label for the metric and the unit displayed. In the database this will update these attributes as well as update when it was updated and by whom.
 > Path params:
 > `metric: <string> *Required*`
-> Example: `hp47105%3latest%3engine_load%31557499779055`. This parameter will be used to find the artifact in the database to update.
+> Example: `asset4321%3latest%3engine_load%31557499779055`. This parameter will be used to find the artifact in the database to update.
 
 ### Request Body
 ```javascript

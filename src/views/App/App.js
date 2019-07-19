@@ -21,7 +21,6 @@ import { fetchUserPermissions } from 'data/actions/authentication';
 /* Custom Utils */
 import LazyLoader from 'utils/Loading/LazyLoader';
 import PrivateRoute from 'utils/Auth/PrivateRoute';
-import AuthRequired from 'utils/Auth/AuthRequired'
 /* View Snippet Components */
 import Header from 'views/Layout/Header';
 import SideBar from 'views/Layout/SideBar';
@@ -119,9 +118,7 @@ class App extends Component {
         <SideBar privateMenu={privateMenu} publicMenu={publicMenu}>
           <div>
             {privateMenu.map((item, i) => (
-              <AuthRequired  key={i} service={item.service} action={item.action}>
-                <PrivateRoute path={`${match.path}${item.path}`} component={item.component}/>
-              </AuthRequired>
+              <PrivateRoute key={i} path={`${match.path}${item.path}`} component={item.component}/>
             ))}
 
             {publicMenu.map((item, i) => (

@@ -66,7 +66,7 @@ Each folder under the views folder
  -> Auth
  This file is the layout that contains the Sign up and login components. It lies at the global level with App and does not allow user to access the App route if the user is not authenticated.
  -> AuthHeader
- This functional component is the header of the Auth components: It contains the stallion logo.
+ This functional component is the header of the Auth components: It contains the company logo.
  -> Login
  This component renders out text inputs for users to enter their username and password to log into the application.
  -> Marketing

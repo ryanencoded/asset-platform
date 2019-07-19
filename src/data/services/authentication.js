@@ -48,48 +48,37 @@ export const confirmAccountService = ({ username, code }) => {
 }
 
 export const loginUserService = ({ user }) => {
-    return Auth.signIn({username: user.username, password: user.password}).then(userinfo => {
-      return {
-        confirmedAccount: true,
-        isAuthenticated: true,
-        userId: userinfo.attributes.sub,
-        username: userinfo.username,
-        name: userinfo.attributes.name,
-        email: userinfo.attributes.email,
-        phone: userinfo.attributes.phone_number,
-        phoneVerified: userinfo.attributes.phone_number_verified,
-        emailVerified: userinfo.attributes.email_verified,
-        optedIn: userinfo.attributes['custom:opted_in']
-      }
-    })
+  return {
+    confirmedAccount: true,
+    isAuthenticated: true,
+    userId: '12345637-12354-assdfgs-asdsdsdsd',
+    username: 'jsmith',
+    name: 'Jane Smith',
+    email: 'jsmith@email.com',
+    phone: '+18325551234',
+    phoneVerified: false,
+    emailVerified: true,
+    optedIn: false
+  }
 };
 
 export const logoutUserService = ({ user }) => {
-    return Auth.signOut().then(() => persistor.purge())
+    return persistor.purge()
 };
 
 export const currentUserService = () => {
-    return Auth.currentUserInfo().then(userinfo => {
-      if(userinfo && Object.keys(userinfo).length > 0){
-        return {
-          confirmedAccount: true,
-          isAuthenticated: true,
-          userId: userinfo.attributes.sub,
-          username: userinfo.username,
-          name: userinfo.attributes.name,
-          email: userinfo.attributes.email,
-          phone: userinfo.attributes.phone_number,
-          phoneVerfied: userinfo.attributes.phone_number_verified,
-          emailVerified: userinfo.attributes.email_verified,
-          optedIn: userinfo.attributes['custom:opted_in']
-        }
-      }else{
-        return {
-          isAuthenticated: false
-        }
-      }
-
-    })
+  return {
+    confirmedAccount: true,
+    isAuthenticated: true,
+    userId: '12345637-12354-assdfgs-asdsdsdsd',
+    username: 'jsmith',
+    name: 'Jane Smith',
+    email: 'jsmith@email.com',
+    phone: '+18325551234',
+    phoneVerified: false,
+    emailVerified: true,
+    optedIn: false
+  }
 };
 
 export const forgotPasswordService = ({ username }) => {

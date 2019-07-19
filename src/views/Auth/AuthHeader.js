@@ -10,7 +10,7 @@ const AuthHeader = (props) => {
   const { classes } = props
   return (
     <div className={classes.imageContainer}>
-      <img className={classes.image} src={Logo} alt='Stallion Logo'/>
+      <img className={classes.image} src={Logo} alt='Company Logo'/>
     </div>
   )
 };

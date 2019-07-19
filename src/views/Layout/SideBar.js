@@ -21,9 +21,6 @@ import {
 /* Custom Utils */
 import TooltipIcon from 'utils/Views/TooltipIcon';
 import AdminIcon from '@material-ui/icons/People';
-import AuthRequired from 'utils/Auth/AuthRequired'
-
-
 
 class SideBar extends Component {
   state = {
@@ -61,11 +58,9 @@ class SideBar extends Component {
           <div className={classes.toolbar}></div>
           <List disablePadding>
             {privateMenu.map((item, i) => (
-              <AuthRequired key={i} service={item.service} action={item.action}>
-                <ListItem button disableGutters component={this.forwardNavLink} activeClassName={classes.activeRoute} to={`${match.url}${item.path}`}>
+                <ListItem key={i} button disableGutters component={this.forwardNavLink} activeClassName={classes.activeRoute} to={`${match.url}${item.path}`}>
                   <ListItemIcon className={classes.itemIcon}><TooltipIcon icon={item.icon} text={item.title} /></ListItemIcon>
                 </ListItem>
-              </AuthRequired>
             ))}
             {publicMenu.map((item, i) => (
               <ListItem key={i}button disableGutters component={this.forwardNavLink} activeClassName={classes.activeRoute} to={`${match.url}${item.path}`}>
