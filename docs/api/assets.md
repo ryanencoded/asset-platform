@@ -155,7 +155,7 @@ includes your Access Key, Secret Access Key, and a Session Token.
             region: "None",
             customer: "None"
         },
-        downloadLink: "https://integritty-staging-gateway.s3.amazonaws.com/assets/asset1234/software-kit.zip?AWSAccessKeyId=ASIAWTLKC6E6CVENMA7B&Expires=1558548421&Signature=z%2B%2F6CR6A5pvKqOiXDSbJry0HAFs%3D&x-amz-security-token=AgoJb3JpZ2luX2VjEKL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIB%2FYfemIH0RjLgOV9MGI08SmujbBr1eMOjP0nPvAp40pAiEA4e7Z2hV2ypACAL%2BDxsWu%2BEqPn44Dzt7yLBYngpbVti4qogIIqv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw0NTM4Nzg0MTE1ODAiDEVMyVUbXHGdbb6hmyr2AfXUJWAHR5jYV2FUE5DUmg9E58ODaGjZ6gl%2BqNe0fv%2FB9ak3H%2FFoIbMEW23UE41j17i92LLmz6l2wNCK6HAWQC3m%2FlJJ2mgYOJ9GI7w0vEtHS%2FAXyXnKxhppehlkvb8pTC%2BE1GPQI7bjHwHlE07V45J8H1tgHWnVHg9WqA%2BUS8N1WBm5XMUmh22ZbGdMO3xF2RlBnevkRwPaitI55Fm2UCx8ACHweZePxxQyF%2B1jJaB%2FGiHN1%2F5OH%2FbwZFM7A%2BXNkQ59y1fTdaSc%2BeC7%2BH2SuO6b4onkyZy%2FEVI1E3v1gCEBFje4CQgJFMK0Nel75YgflA%2BH3Ux28DD4gpbnBTq0Ac52hRyjXs6c7moMM6roiYh3GAuzOCp0PsHdfXGqioU4%2F2y2hryawtmPNo1OeKHZpwLtijWRLa7N3xmyjeGp%2F1pgaFn1a6ZJWUUivVHnaWbn3RFq5b%2FgFANg7VTO9lcWTMVwB1t8YPgWHyjYTcbB7kVcZZXgOuE0SRcRfcwYk%2B1e1cfJB0mqfS2PdVw6gh8Ibv4HbddP4P2V3PkuSyyihMkYXOL%2FJOtXPdTU4N%2FbHCC2c0DxRA%3D%3D"
+        downloadLink: "https://integritty-gateway.s3.amazonaws.com/assets/asset1234/software-kit.zip?aws-security-credential-auto-added-here"
     }
 }
 ```
@@ -173,7 +173,7 @@ includes your Access Key, Secret Access Key, and a Session Token.
     meta: {
         status: true
     },
-    data: "https://integritty-gateway.s3.amazonaws.com/assets/asset1234/software-kit.zip?AWSAccessKeyId=ASIAWTLKC6E6CP573HO5&Expires=1558551468&Signature=EKBL%2BCJlaitWj%2BAzp%2FG00IWS8%2F0%3D&x-amz-security-token=AgoJb3JpZ2luX2VjEKL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCKBNXx8dGPtdq%2FExyHbY9wK2jRXGQLU3xZwYqsg2XswQIgThZkNoeLEEidoI3lgVwOP%2BOs%2F9vRWbagZaQ2gH5ikZkqpwIIq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw0NTM4Nzg0MTE1ODAiDKHlud%2B4l%2BDqh%2BrbAir7AZJr0pFSJTNkrKAvwDNUii0us1cxLwqEXBon1fggqfcs9mugc6YC9fJpXbK0hb1sxOSdKJXMOPjRCGCDDnjw%2FGH3aPJ8i48j8StSAsqiE69ISeUMuQYF1GM7UWVEDyAdQxVMxOLkRvIJ3NSXgu13Lw5S%2FiZF7HaCC8E%2BDq0CVrVgv2HdkNz3kO6qCzuLEOP4T0nnW6%2FCtMWXVcrjOQ%2FQmtUESfX9EXnzjjmhhA1BlNA5%2B26lM0VE3LemXwxAHI42ec2D1%2FsGv9tuEwshUwLvDvixZO12EeRsz8xEVYrfnGv0oA4SWm8soIoRNVzQZf6WcEvXkSjmVDpRvzzyMN%2BalucFOrQBinOgVNz0V%2B6NiE1csLWTwyuyEjpu2BTBicljrMgFUkUnlz7EFGqVhbYUBrYZPnVdOEdf8epoFVW0HFub2O8i%2FD8E92IpOJYynP9TX%2FA8YXxGWnI%2BXz6FTZiphkcB1Iuz%2BpTtQgoOldIXoiGz9Sdu5abvOUKgRc2c5KlGUpfkE2uQ3l3CW4c79fnbIZaRTaF6Qh5ywl6ZTpRenQuc%2FoSw9K1szdTb1FkQGX77VIrZEiic2qyY"
+    data: "https://integritty-gateway.s3.amazonaws.com/assets/asset1234/software-kit.zip?aws-security-credential-auto-added-here"
 }
 ```
 
