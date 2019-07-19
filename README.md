@@ -3,7 +3,7 @@ This project serves to cater to customers in managing their assets out in the fi
 
 This is a stripped down version of the original platform, without the company data and is not powered by the backend. It is meant to give an idea of the structure, implementation, and overall architecture of the front-end.
 
-##Login Credentials##
+## Login Credentials ##
 The front-end does not really require certain credentials, but does validate what you type. The easiest way to gain access is to use the following credentials.
 
 Username: testuser
