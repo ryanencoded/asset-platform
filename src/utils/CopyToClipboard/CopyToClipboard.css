@@ -1,0 +1,70 @@
+
+
+.code-sample {
+  position: relative;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  text-overflow: wrap;
+  cursor: pointer;
+}
+
+.code-sample pre {
+  padding: 10px;
+}
+.code-sample .clip-button {
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  padding: 2px 4px;
+  border: 1px solid #eee;
+  font-size: 1.5rem;
+  background: #444;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.code-sample:hover .clip-button {
+  opacity: 1;
+}
+.code-sample.clip-pop .clip-button {
+  opacity: 0;
+  -webkit-animation: 0.3s clip-pop 0.1s;
+          animation: 0.3s clip-pop 0.1s;
+}
+
+@-webkit-keyframes clip-pop {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: 0.2;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes clip-pop {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: 0.2;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+}
